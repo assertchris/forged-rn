@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { View, Text } from 'react-native'
 import { useHistory } from 'react-router-native'
+import tailwind from 'tailwind-rn'
 
 const Splash = () => {
     const history = useHistory()
@@ -8,12 +9,12 @@ const Splash = () => {
     useEffect(() => {
         setTimeout(() => {
             history.push('/dashboard')
-        }, 3000)
+        }, 250)
     })
 
     return (
-        <View>
-            <Text>splash</Text>
+        <View className="p-8 bg-blue-200">
+            <Text className="text-2xl">splash</Text>
         </View>
     )
 }

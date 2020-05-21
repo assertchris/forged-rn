@@ -1,5 +1,4 @@
 #import "AppDelegate.h"
-
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 
@@ -16,7 +15,7 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  // Insert code here to initialize your application
+  // code when the app runs
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
